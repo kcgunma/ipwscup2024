@@ -1,5 +1,8 @@
 # ipwscup2024
 
+## How to work
+
+## Programs & Data
 - sample_data/sampleBi.csv
   - A sample data of distribution data Bi.
 - tools/genHash.py
