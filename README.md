@@ -50,6 +50,8 @@
   - Read a csv file and randomly replace the order of records (rows).
   - Usage : python randomShuffle.py \<inputfilename> \<outputfilename>
 - sample_code/recoding.py
+  - Read a csv file, specify the attribute name (only one), the value before the change and the value after the change, and batch convert the value before the change to the value after the change.
+  - Usage : python recoding.py \<inputfilename> \<outputfilename> \<pre-conversion value name> \<post-conversion value name>
 - sample_code/sampleAttack.py
   - An attack sample code.
   - Enter the ID number (e.g. 99) and run the code. The attack result file E99.csv is output.
