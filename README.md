@@ -28,6 +28,8 @@
 - TBA
 
 ## Programs & Data
+- codabench/
+  - Directory of programmes and data for input into codabench.
 - data/A.csv
   - Original data for creation of synthetic data. 
 - data/sampleBi.csv
