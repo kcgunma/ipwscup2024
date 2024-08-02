@@ -15,10 +15,10 @@
 7. Create an id.txt file with the team ID (e.g. 99).
 8. Zip 10 anonymized files (e.g. iC99_0.csv, iC99_1.csv, ... , iC99_9.csv) and id.txt into one zip file.
    - The file can be named freely (e.g., submit.zip). Note that, the 10 anonymized files and id.txt are placed directly below the zip file. Including folders will result in an error.
-9. Click on the My Submissions tab, then click on the clip icon a little further down to bring up the file selection window, select the zip file you created earlier and submit it.
+9. Click on the My Submissions tab of [iPWS Cup 2024 competition site on codabench](https://www.codabench.org/competitions/3260/), then click on the clip icon a little further down to bring up the file selection window, select the zip file you created earlier and submit it.
    - Before selecting the file, write a comment in the comment box just above the clip icon, and the comment will be displayed on the leaderboard (which appears when you press the Results tab) along with the results.
 10. The status of the submitted zip file is displayed at the bottom of the screen; if the Status column is Ready, the process is complete.
-    - Please be patient as this may take more than five minutes. If there are any errors, the status may change to Failed, Submitting or Running. If the status is not Finished for an unknown reason, please contact the organizer (pwscup2024-info(at)csec.ipsj.or.jp (replace '(at)' with the at sign '@')).
+    - Please be patient as this may take more than five minutes. If there are any errors, the status may change to 'Failed' or remain 'Submitting' or 'Running' for a long time. If the status does not change to 'Finished' for a long time, please contact the organizer (pwscup2024-info(at)csec.ipsj.or.jp (replace '(at)' with the at sign '@')).
 11. Press the left icon (Add to Leaderboard when hovered over) of the two icons that appear in the Actions column when the Status column is Ready.
 12. When the icon changes to a tick icon, the process is complete. This will be reflected in the leaderboard.
 - If you want to modify the anonymized files, re-zip the 10 modified files and the id.txt and resubmit.
