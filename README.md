@@ -30,6 +30,8 @@
 ## Programs & Data
 - codabench/
   - Directory of programmes and data for input into codabench.
+- codabench/iB99.zip
+  - Zip file of sample distribution dataset and its attack evaluation dataset for utility and anonymity evaluation.
 - data/A.csv
   - Original data for creation of synthetic data. 
 - data/sampleBi.csv
