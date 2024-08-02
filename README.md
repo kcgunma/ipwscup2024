@@ -27,7 +27,7 @@
 ### Attack
 - TBA
 
-## Programs & Data
+## Programmes & Data
 - codabench/
   - Directory of programmes and data for input into codabench.
 - codabench/iB99.zip
@@ -38,9 +38,17 @@
   - Original data for creation of synthetic data. 
 - data/sampleBi.csv
   - A sample data of distribution data Bi.
-- tools/answerCheck.py
+- sample_code/randomization.py
+- sample_code/randomShuffle.py
+- sample_code/recoding.py
+- sample_code/sampleAttack.py
+- sample_code/swapping.py
+- tools/answerCheck.py (Renamed attackScore.py)
   - Reads two files (distribution data and anonymized data) and returns the number of matches.
   - Usage : python answerCheck.py \<prefix of file1> \<prefix of file2>
+- tools/checkCi.py
+  - Check the validity of anonymized data formats.
+  - Usage : python checkCi.py \<filename of Ci>
 - tools/genHash.py
   - Calculate the hash value (SHA-256) of distribution data Bi.
   - Integrity check against the pre-published hash value of Bi.
