@@ -57,7 +57,7 @@
   - Usage : python samleAttack.py --id \<id number>
 - sample_code/swapping.py
   - Read a csv file, specify the attribute name(s) and the number of times n, select two random pieces of data for the specified attribute and swap the values (repeat this n times).
-  - Usage : python swapping.py \<attribute name 1> ... \<attribute name m> \<n>
+  - Usage : python swapping.py \<inputfilename> \<outputfilename> \<attribute name 1> ... \<attribute name m> \<n>
 - tools/answerCheck.py (Renamed attackScore.py)
   - Reads two files (distribution data and anonymized data) and returns the number of matches.
   - Usage : python answerCheck.py \<prefix of file1> \<prefix of file2>
