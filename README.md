@@ -48,7 +48,7 @@
 - sample_code/randomization.py
 - sample_code/randomShuffle.py
   - Read a csv file and randomly replace the order of records (rows).
-  - Usage : python randomShuffle.py \<filename>
+  - Usage : python randomShuffle.py \<inputfilename> \<outputfilename>
 - sample_code/recoding.py
 - sample_code/sampleAttack.py
   - An attack sample code.
