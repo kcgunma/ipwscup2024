@@ -52,5 +52,8 @@
     - B00ans.csv : Answer data showing how B00b.csv was shuffled and where it was redacted.
   - Usage : python maketest.py <prefix of Bi>
 - tools/split.py
-  - Output subset data files Bi_0.csv, Bi_1.csv, ... , Bi_9.csv from Bi.
-  - They are the original data of anonymized data Ci_0, Ci_1, ... , Ci_9. 
+  - Output subset data files iB99_0.csv, iB99_1.csv, ... , iB99_9.csv from iB99.csv.
+  - They are the original data of anonymized data iC99_0, iC99_1, ... , iC99_9.
+  - Usage : python split.py <prefix of Bi> 
+- tools/utilityScore.py
+- tools/util8tyScoreSingle.py
