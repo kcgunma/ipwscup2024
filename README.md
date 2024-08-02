@@ -7,7 +7,9 @@
 ### Attack
 
 ## Programs & Data
-- sample_data/sampleBi.csv
+- data/A.csv
+  - Original data for creation of synthetic data. 
+- data/sampleBi.csv
   - A sample data of distribution data Bi.
 - tools/genHash.py
   - Calculate the hash value (SHA-256) of distribution data Bi.
