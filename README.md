@@ -56,4 +56,8 @@
   - They are the original data of anonymized data iC99_0, iC99_1, ... , iC99_9.
   - Usage : python split.py <prefix of Bi> 
 - tools/utilityScore.py
-- tools/util8tyScoreSingle.py
+  - Enter the ID number (e.g. 99) and run (iB99_0.csv, iC99_0.csv), ... , (iB99_9.csv, iC99_9.csv), each of which is fed into utilityScoreSingle.py and run to output the lowest utility score obtained.
+  - Usage : python utilityScore.py id.txt 
+- tools/utilityScoreSingle.py
+  - Input files before and after anonymization, calculate the MAE (Mean Absolute Error) of all cross-tabulations of basic attributes (Gender, Age, Occupation, ZIP-code) x movie rating data and movie rating data x movie rating data, and output a utility score (1-w)*100 for the worst MAE value w.
+  - Usage : python utilityScoreSingle.py <file1> <file2> 
