@@ -34,6 +34,13 @@
   - Zip file of sample distribution dataset and its attack evaluation dataset for utility and anonymity evaluation.
 - codabench/id.txt
   - File with your team's ID number.
+- codabench/metadata
+  - Command to run run_anonymisation.py, to be loaded into codabench.
+- codabench/run_anonymization.py
+  - Reads a zip file consisting of an anonymized data file and id.txt and outputs the utility score, sample anonymity score and the total score.
+  - The zip file is entered via the codabench GUI.
+- codabench/submit.zip
+  - Sample zip file to be loaded into run_anonymization.py.
 - data/A.csv
   - Original data for creation of synthetic data. 
 - data/sampleBi.csv
