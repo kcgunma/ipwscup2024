@@ -1,0 +1,2 @@
+command: python3 /app/program/run_anonymization.py $input
+description: Compute scores for the anonymization phase.
