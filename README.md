@@ -32,17 +32,19 @@
   - Directory of programmes and data for input into codabench.
 - codabench/iB99.zip
   - Zip file of sample distribution dataset and its attack evaluation dataset for utility and anonymity evaluation.
+- codabench/id.txt
+  - File with your team's ID number.
 - data/A.csv
   - Original data for creation of synthetic data. 
 - data/sampleBi.csv
   - A sample data of distribution data Bi.
 - tools/answerCheck.py
   - Reads two files (distribution data and anonymized data) and returns the number of matches.
-  - Usage : python answerCheck.py <prefix of file1> <prefix of file2>
+  - Usage : python answerCheck.py \<prefix of file1> \<prefix of file2>
 - tools/genHash.py
   - Calculate the hash value (SHA-256) of distribution data Bi.
   - Integrity check against the pre-published hash value of Bi.
-  - Usage : python genHash.py <filename of Bi>
+  - Usage : python genHash.py \<filename of Bi>
 - tools/maketest.py
   - Read Bi and create data for attacks.
   - For example, for input B00.csv, output B00s.csv, B00a.csv, B00b.csv and B00ans.csv.
@@ -50,14 +52,14 @@
     - B00a.csv : Data in the basic attributes (Name, Gender, Age, Occupation, ZIP-code) extracted from B00s.csv.
     - B00b.csv : Movie ratings data from B00s.csv modified by random shuffling and partially redacted.
     - B00ans.csv : Answer data showing how B00b.csv was shuffled and where it was redacted.
-  - Usage : python maketest.py <prefix of Bi>
+  - Usage : python maketest.py \<prefix of Bi>
 - tools/split.py
   - Output subset data files iB99_0.csv, iB99_1.csv, ... , iB99_9.csv from iB99.csv.
   - They are the original data of anonymized data iC99_0, iC99_1, ... , iC99_9.
-  - Usage : python split.py <prefix of Bi> 
+  - Usage : python split.py \<prefix of Bi> 
 - tools/utilityScore.py
   - Enter the ID number (e.g. 99) and run (iB99_0.csv, iC99_0.csv), ... , (iB99_9.csv, iC99_9.csv), each of which is fed into utilityScoreSingle.py and run to output the lowest utility score obtained.
   - Usage : python utilityScore.py id.txt 
 - tools/utilityScoreSingle.py
   - Input files before and after anonymization, calculate the MAE (Mean Absolute Error) of all cross-tabulations of basic attributes (Gender, Age, Occupation, ZIP-code) x movie rating data and movie rating data x movie rating data, and output a utility score (1-w)*100 for the worst MAE value w.
-  - Usage : python utilityScoreSingle.py <file1> <file2> 
+  - Usage : python utilityScoreSingle.py \<file1> \<file2> 
