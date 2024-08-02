@@ -46,6 +46,9 @@
 - data/sampleBi.csv
   - A sample data of distribution data Bi.
 - sample_code/randomization.py
+  - Read a csv file and randomize the data for a given attribute.
+  - Each value in the specified attribute does not change with probability p, but changes to a random value with probability 1-p.
+  - Usage : python randomization.py \<inputfilename> \<outputfilename> \<attribute name> \<probability p>
 - sample_code/randomShuffle.py
   - Read a csv file and randomly replace the order of records (rows).
   - Usage : python randomShuffle.py \<inputfilename> \<outputfilename>
