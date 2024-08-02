@@ -42,6 +42,10 @@
 - sample_code/randomShuffle.py
 - sample_code/recoding.py
 - sample_code/sampleAttack.py
+  - An attack sample code.
+  - Enter the ID number (e.g. 99) and run the code. The attack result file E99.csv is output.
+  - The output files B99a.csv and B99b.csv from maketest.py and the anonymized data file C99.csv must be placed in the same directory.
+  - Usage : python samleAttack.py --id \<id number>
 - sample_code/swapping.py
 - tools/answerCheck.py (Renamed attackScore.py)
   - Reads two files (distribution data and anonymized data) and returns the number of matches.
