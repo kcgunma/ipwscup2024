@@ -31,7 +31,7 @@ def find_max_mae_and_columns(file1, file2, parallel=1):
       freq1 = df1.value_counts(column_pair)
       freq2 = df2.value_counts(column_pair)
       ## modify 20240807: replace na value by 0
-      index_union = freq1.index.union(freq2.index
+      index_union = freq1.index.union(freq2.index)
       freq1 = freq1.reindex(index_union, fill_value=0)
       freq2 = freq2.reindex(index_union, fill_value=0)
       ## end
